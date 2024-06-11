@@ -1,141 +1,174 @@
-<!--Create new website with html-->
-<!--Html page, container-->
-<!--Hyper text Markup Language-->
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
-  <head>
-    <title>Navigation web application</title>
-    <meta charset="utf-8">
-  <meta name="author" content="anonymous">
-  <meta name="generator" content="sublime text3" >
-  <meta name="keywords" content="LittlePrince, html, javascript" >
-  <meta name="description" content="This is website the LittlePrince" >
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="index, follow" >
-  <meta http-equiv="refresh" content="" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  </head>
-  
-  <body style="scrollbar-face-color: blue;">
-    <div class="wrapper">
-      <div class="w4-container">
-        <div class="content">
-          <div class="navigation-bar">
-            <!--Section to search icon with css-->
-            <div class="search">
-              <a href="https://google.com/" target="_blank" title="Google.com"><i class="fa fa-search" onclick="myFunction()" id="fa-search"></i></a>
-            </div>
-            <!--Section to bars icon by server-->
-            <div class="bars">
-              <a href="https://codepen.io/" target="_blank" title="Codepen.io">
-                <i class="fa fa-bars" onclick="codeFunction()" id="fa-bars"></i>
-              </a>
-            </div>
-            <!--Section to code icon with codes html n css-->
-            <div class="section-container-fluid">
-              <div class="codes-content">
-                <a href="https://w3schools.com/" target="_blank" title="W3schools.com">
-                  <i class="fa fa-code" onclick="schoolsFunction()" id="fa-code"></i>
-                </a>
-              </div>
-            </div>
-            <!--Section to laptop icon with html n css XD-->
-            <div class="wrapper-fluid-fex">
-              <div class="w4-container-laptop">
-                <a href="https://youtube.com/" target="_blank" title="Youtube.com">
-                  <i class="fa fa-laptop" onclick="youtubeFunction()" id="fa-laptop"></i>
-                </a>
-              </div>
-            </div>
-            <!--Section to power-off icon with css-->
-            <div class="container-inner-flex-fluid">
-              <div class="section to power-off icon">
-                <a href="https://facebook.com/" target="_blank" title="Facebook.com">
-                  <i class="fa fa-power-off" onclick="facebookFunction()" id="fa-power-off"></i>
-                </a>
-              </div>
-            </div>
-            <!--Section to  coffee cup icon with css and javascript-->
-            <div class="content-flex-box-cosmic">
-              <div class="coffee-cup-in-my-mind">
-                <a href="https://www.peets.com/" target="_blank" title="Coffee.com">
-                  <i class="fa fa-coffee" onclick="coffeecupFunction()" id="fa-coffee"></i>
-                </a>
-              </div>
-            </div>
-            <!--Section to wifi icon with internet root-->
-            <div class="wifi-modern-root-box">
-              <div class="modern-wifi is css">
-                <a href="https://wifi.com/" target="_blank" title="Intel Continental WIFI">
-                  <i class="fa fa-wifi" onclick="wifirootFunction()" id="fa-wifi"></i>
-                </a>
-              </div>
-            </div>
-            <br />
-            <div class="colorfull"></div>
-            <a href="https://codepen.io/EneergeticTomy/" target="_blank"><sapn id="text-indent">Tomi</sapn></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="w5-blue-animation">
-        <div class="blue-animation">
-          <div class="blue-cub">
-            <div class="w5-animation" onclick="show()">
-              
-            </div>
-          </div>
-        </div>
-      </div>
-<div class="section-w7-container">
-    <div class="w4-triangle">
-      <div class="w5-triangle">
-        <div class="w6-triangle">
-          
-        </div>
-      </div>
-    </div>
-    
-    <div class="w7-triangle">
-      <div class="w8-triangle">
-        <div class="w9-triangle">
-          
-        </div>
-      </div>
-    </div>
-    
-    <div class="w10-triangle">
-      <div class="w11-triangle">
-        <div class="w12-triangle">
-          
-        </div>
-      </div>
-    </div>
-    
-    <div class="w13-triangle">
-      <div class="w14-triangle">
-        <div class="w15-triangle">
-          
-        </div>
-      </div>
-    </div>
-     
-    <div class="text-fluid">
-      <div class="text-boxing">
-        <div class="text-centered-fluid">
-          <a href="https://javascript.com/" target="_blank" onclick="javascriptFunction()">JavaScript</a>
-        </div>
-      </div>
-  </div>
-</div>
+<html lang="en">
 
-    
-    <div class="loader"></div>
-    
-    <div class="Flash"></div>
-    <script type="js/script.js"></script>
-  </body>
-  
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta name="description" content="Degla Smart Language School" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Degla Smart Language School</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles1.css">
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+
+<script>
+
+$(document).ready(function()
+{
+
+$('#Dep').on('change',function()
+    {
+        $(this).css("background-color", "#D6D6FF");
+        $('#Pass').css("background-color", "#D6D6FF");
+        $('#login').css("background-color", "red");      
+    });
+
+});
+
+</script>
+</head>
+<body>
+<div class="template-6">
+    <aside>
+        <figure class="sign-in__teacher-image">
+                <img src="img/8.jpg" class="brand_logo" alt="Programming Knowledge logo">
+        </figure>
+    </aside>
+    <main>
+       <div class="sign-in__teacher-info">
+            <h1 class="teacher-info__title">Degla Smart Language School</h1>
+            <p class="teacher-info__tagline">KG &amp; Elementary</p>
+        </div>
+        <div class="sign-in__form">             
+            <div class="sign-in__form__sign-in">
+                <h3>Sign In</h3>
+                
+                <form action="/dsls/2/mt_r.php" method="POST">
+
+                    <div class="sign-in__form__field">
+
+                        <label for="">Exam</label>
+
+                        <select name="listExam" id="Exam">
+
+                            <option selected hidden value="Select Grade">Select Exam</option>
+                            
+                            <option value="October" >October</option>
+                            <option value="November" >November</option>
+                            <option value="First Term" >First Term</option>
+                            <option value="March" >March</option>
+                            <option value="April" >April</option>
+                            <option value="Second Term" >Second Term</option>
+                            
+                        </select>
+
+                    </div>
+                                                                
+                     <div class="sign-in__form__field">
+                        <label for="">Password</label>
+                        <input type="password" id="Pass" name="password" />
+                    </div>
+
+                    <button type="submit" name="button" id="login" class="sign-in__form__button next-btn">Login</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="sign-in__social-media">
+            <ul>
+                
+            </ul>
+        </div>            
+    </main>
+</div>
+</body>
+
+</html>
+
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <meta name="description" content="Degla Smart Language School" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Degla Smart Language School</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles1.css">
+
+<script>
+
+$(document).ready(function()
+{
+
+$('#Dep').on('change',function()
+    {
+        $(this).css("background-color", "#D6D6FF");
+        $('#Pass').css("background-color", "#D6D6FF");
+        $('#login').css("background-color", "red");      
+    });
+
+});
+
+</script>
+</head>
+<body>
+<div class="template-6">
+    <aside>
+        <figure class="sign-in__teacher-image">
+                <img src="img/8.jpg" class="brand_logo" alt="Programming Knowledge logo">
+        </figure>
+    </aside>
+    <main>
+       <div class="sign-in__teacher-info">
+            <h1 class="teacher-info__title">Degla Smart Language School</h1>
+            <p class="teacher-info__tagline">KG &amp; Elementary</p>
+        </div>
+        <div class="sign-in__form">             
+            <div class="sign-in__form__sign-in">
+                <h3>Sign In</h3>
+                
+                <form action="mt_r.php" method="POST">
+
+                    <div class="sign-in__form__field">
+
+                        <label for="">Exam</label>
+
+                        <select name="listExam" id="Exam">
+
+                            <option selected hidden value="Select Grade">Select Exam</option>
+                            
+                            <option value="October" >October</option>
+                            <option value="November" >November</option>
+                            <option value="First Term" >First Term</option>
+                            <option value="March" >March</option>
+                            <option value="April" >April</option>
+                            <option value="Second Term" >Second Term</option>
+                            
+                        </select>
+
+                    </div>
+                                                                
+                     <div class="sign-in__form__field">
+                        <label for="">Password</label>
+                        <input type="password" id="Pass" name="password" />
+                    </div>
+
+                    <button type="submit" name="button" id="login" class="sign-in__form__button next-btn">Login</button>
+
+                </form>
+            </div>
+        </div>
+        <div class="sign-in__social-media">
+            <ul>
+                
+            </ul>
+        </div>            
+    </main>
+</div>
+</body>
+
 </html>
